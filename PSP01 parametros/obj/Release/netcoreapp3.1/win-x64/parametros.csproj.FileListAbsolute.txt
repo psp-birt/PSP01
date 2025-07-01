@@ -1,0 +1,13 @@
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\bin\Release\netcoreapp3.1\win-x64\parametros.exe
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\bin\Release\netcoreapp3.1\win-x64\parametros.deps.json
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\bin\Release\netcoreapp3.1\win-x64\parametros.runtimeconfig.json
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\bin\Release\netcoreapp3.1\win-x64\parametros.runtimeconfig.dev.json
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\bin\Release\netcoreapp3.1\win-x64\parametros.dll
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\bin\Release\netcoreapp3.1\win-x64\parametros.pdb
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\obj\Release\netcoreapp3.1\win-x64\parametros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\obj\Release\netcoreapp3.1\win-x64\parametros.AssemblyInfoInputs.cache
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\obj\Release\netcoreapp3.1\win-x64\parametros.AssemblyInfo.cs
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\obj\Release\netcoreapp3.1\win-x64\parametros.csproj.CoreCompileInputs.cache
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\obj\Release\netcoreapp3.1\win-x64\parametros.dll
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\obj\Release\netcoreapp3.1\win-x64\parametros.pdb
+C:\Users\igortazar\Documents\DAM\PSP\2024_2025\Github_CopiaAntigua_PSP2023_2024\PSP2023_2024-main\PSP01\PSP01 parametros\obj\Release\netcoreapp3.1\win-x64\parametros.genruntimeconfig.cache

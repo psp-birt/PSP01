@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gGjENMkhjAU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\igortazar\\Documents\\DAM\\PSP\\2024_2025\\Github_CopiaAntigua_PSP2023_2024\\PSP2023_2024-main\\PSP01\\PSP01 parametros\\parametros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\igortazar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\igortazar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
