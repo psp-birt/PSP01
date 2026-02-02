@@ -55,7 +55,7 @@ namespace procesos2
             // se pasa como información el ejecutable que queremos arrancar como proceso.
             // pasar la información con rutas relativas no absolutas (para que el programa pueda funcionar en otros entornos).
             // recoge la información del textBox y se lo pasa como parámetro para que lo muestre en consola.
-            ProcessStartInfo p = new ProcessStartInfo(@"..\..\..\parametros\bin\Release\netcoreapp2.1\win-x64\parametros.exe", textBox1.Text);
+            ProcessStartInfo p = new ProcessStartInfo(@".\publicacion\parametros\parametros.exe", textBox1.Text);
 
             //Inicia el recurso de proceso y guarda la información en la variable tmp.
             var tmp = Process.Start(p);
@@ -67,22 +67,43 @@ namespace procesos2
             // si p1 está inicializado o hemos matado los procesos anteriores y está a null.
             if(p1==null)
             {
-                // iniciar pipes la parte cliente como proceso
-                // se recoge como valor el path relativo del ejecutable
-                ProcessStartInfo info = new ProcessStartInfo(@"..\..\..\pipe\bin\release\netcoreapp2.1\publish\win-x64\pipe.exe");
-                
-                //se recoge como valor que queremos abrir el proceso en una ventana
-                info.CreateNoWindow = false;
-                //se recoge como valor el tipo de ventana que queremos abrir
-                info.WindowStyle = ProcessWindowStyle.Normal;
-                //se recoge como parámetro que se el ejecutable nada más se genere el proceso.
-                info.UseShellExecute = true;
+                try
+                {
+                    // Opción 1: UseShellExecute = false (RECOMENDADA)
+                    ProcessStartInfo info = new ProcessStartInfo()
+                    {
+                        FileName = @".\publicacion\publishCliente\PipeCliente.exe",
+                        CreateNoWindow = false,
+                        WindowStyle = ProcessWindowStyle.Normal,
+                        UseShellExecute = false,           // ← CAMBIO CLAVE
+                        WorkingDirectory = @".\publicacion\publishServer"          // ← Directorio donde buscar el .exe
+                    };
 
-                // se crea el proceso, pasando el valor de info como parámetro y devuelve la información de p1 para poder tratar más adelante el proceso.
-                // el valor de p1 pasa por referencia.
-                p1 = Process.Start(info);
+                   
+
+                    p1 = Process.Start(info);
+
+                    if (p1 == null)
+                    {
+                        MessageBox.Show("No se pudo iniciar el proceso");
+                        return;
+                    }
+                }
+                catch (Win32Exception ex)
+                {
+                    MessageBox.Show($"Error del sistema: {ex.Message}\nNativeError: {ex.NativeErrorCode}");
+                }
+                catch (InvalidOperationException ex)
+                {
+                    MessageBox.Show($"Configuración inválida: {ex.Message}");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error inesperado: {ex.Message}\nTipo: {ex.GetType().Name}");
+                }
+
             }
-            
+
         }
 
         private void Button5_Click(object sender, EventArgs e)
