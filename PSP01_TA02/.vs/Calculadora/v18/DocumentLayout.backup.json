@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP01_TA02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ACE7468-6CE5-4447-9931-7E23B344DA99}|pipe\\pipe.csproj|c:\\users\\birt\\documents\\dam\\psp\\2025_2026\\repositorio\\psp01_ta02\\pipe\\pipe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2ACE7468-6CE5-4447-9931-7E23B344DA99}|pipe\\pipe.csproj|solutionrelative:pipe\\pipe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pipe",
+              "DocumentMoniker": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP01_TA02\\pipe\\pipe.csproj",
+              "RelativeDocumentMoniker": "pipe\\pipe.csproj",
+              "ToolTip": "C:\\Users\\birt\\Documents\\DAM\\PSP\\2025_2026\\repositorio\\PSP01_TA02\\pipe\\pipe.csproj",
+              "RelativeToolTip": "pipe\\pipe.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-23T11:46:24.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
