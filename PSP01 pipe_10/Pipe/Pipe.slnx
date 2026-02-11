@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PipeCliente/PipeCliente.csproj" />
+  <Project Path="PipeServidor/PipeServidor.csproj" />
+</Solution>
